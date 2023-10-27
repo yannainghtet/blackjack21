@@ -405,7 +405,5 @@ def double(hand_id):
 
 
 
-
 if __name__ == '__main__':
-    port = os.environ.get("PORT", 5000)# Get port number of env at runtime, else use default port 5000
-    app.run(debug=True, host='0.0.0.0', port=port)  # 0.0.0.0 port forwarding resolves the host IP address at runtime
+    socketio.run(app, debug=True)
