@@ -5,10 +5,10 @@ window.onload = function() {
     song = loopMusic()
 
     setTimeout(song.play(), 1000) // Needed to trick autoplay blockage by chrome
-
+console.log("Hello")
 }
 
-console.log("Hello")
+
 var socket = io.connect('http://127.0.0.1:5000')
 
                         
