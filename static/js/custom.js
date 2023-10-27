@@ -15,9 +15,9 @@ var socket = io.connect('http://127.0.0.1:5000')
 
 // upon player connection, start the game
 socket.on('connect', function(){
-    console.log("Hello")
+    
     socket.emit('start_game')
-
+console.log("Hello")
 })
 
 // deactivates chip in chip box from being clicked on
