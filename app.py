@@ -19,7 +19,9 @@ def index():
 def index1():
     return render_template('index2.html')
 
-
+@socketio.on('connect')
+def handle_connect():
+    print('Client connected')
 
 def clear_previous_round():
     '''
