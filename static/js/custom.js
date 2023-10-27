@@ -8,8 +8,8 @@ window.onload = function() {
 
 }
 
-
-var socket = io.connect('https://blackjack21.onrender.com/')
+console.log("Hello")
+var socket = io.connect('http://127.0.0.1:5000')
 
                         
 // upon player connection, start the game
