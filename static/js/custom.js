@@ -8,7 +8,7 @@ window.onload = function() {
 }
 
 
-var socket = io.connect('htts://edsblackjack.onrender.com/')
+var socket = io.connect('https://edsblackjack.onrender.com/')
 
 
 // upon player connection, start the game
