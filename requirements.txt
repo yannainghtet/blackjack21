@@ -9,7 +9,7 @@ Jinja2==2.10
 MarkupSafe==1.1.0
 monotonic==1.5
 python-engineio==4.8.0
-python-socketio==5.0.0
+python-socketio==5.0.2
 six==1.12.0
 Werkzeug==0.14.1
 gunicorn==20.1.0
